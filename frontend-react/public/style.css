@@ -58,6 +58,16 @@ body {
   margin-bottom: 10px;
 }
 
+.bot-gif{
+
+padding: 20px;
+}
+
+.bot-gif:hover{
+
+padding: 30px;
+}
+
 .chat-container {
   margin-top:20px ;
   margin-bottom: 20px; ;
@@ -119,8 +129,9 @@ body {
 
 .text-muted {
 
+text-align: center;
 padding: 12px;
-width: 250px;
+width: 400px;
 font-size: 20px;
 border-color: #007bff;
 background-color: #bad8f8;
@@ -134,7 +145,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 .text-muted:hover {
 
 padding: 20px;
-width: 250px;
+width: 450px;
 font-size: 20px;
 border-color: #007bff;
 background-color: #bad8f8;

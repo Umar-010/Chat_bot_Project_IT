@@ -3,32 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <div class="heading">
-    <H1 >Internet Technologies Chatbot Project </H1>
-    <H3>By </H3><H2>  Awan, Muhammad  &nbsp;&nbsp;&nbsp;  22400878</H2>
+  <title>Chatbot</title>
+
+
   <link rel="stylesheet" href="style.css" />
-</div>
 </head>
 <body>
+ 
+  <div class="heading">
+        <H1>A Project of Internet Technologies</H1>
+  
+    <h1 class="animated-heading">Chatbot Assistant</h1>
+  </div>
   <div class="theme-toggle">
     <label>
-      <input type="checkbox" id="mode-toggle" onchange="toggleTheme()" />
+      <input type="checkbox" id="mode-toggle" />
       Dark Mode
     </label>
   </div>
-  <img class="bot-gif" src="original-177e68be6786805bb41ff-unscreen.gif" alt="bot to roam">
+  <img src="original-177e68be6786805bb41ff-unscreen.gif" class="bot-gif" alt="animated bot" />
   <div class="chat-container">
 
     <div class="chat-box" id="chat-box">
-      <!-- Messages will appear here -->
+      
     </div>
     <div class="input-area">
       <input type="text" id="user-input" placeholder="Type your message..." />
       <button onclick="sendMessage()">Send</button>
     </div>
-  </div>
-      <div class="container">
-        <span class="text-muted"> Mail at : <a href="mailto:awan.muhammad@th-deg.de">awan.muhammad@th-deg.de</a></span>
       </div>
        <script>
     document.getElementById("mode-toggle").addEventListener("change", function () {
@@ -36,9 +38,11 @@
     });
   </script>
   <script src="script.js"></script>
-  
+  <div class="text-muted">
+    Mail me at <a href="mailto:awan.muhammad@th-deg.de">awan.muhammad@th-deg.de</a>    
+  </div>
 </body>
-<Footer class="footer">
-   &copy; 2025 All rights Reserved
-</Footer>
+<footer class="footer">
+  &copy; 2025 All Rights Reserved
+</footer>
 </html>
